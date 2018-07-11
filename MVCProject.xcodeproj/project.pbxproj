@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2661E6720301AE0E6E4DE51E /* Pods_MVCProjectTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF7714A6EBBEAB8B008B33F7 /* Pods_MVCProjectTests.framework */; };
+		A36484FD4B8FA690FC3DC5DD /* Pods_MVCProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96B3D96A9ACEA7CAB544CDDC /* Pods_MVCProject.framework */; };
+		C3D27E2D9D47E179577523C7 /* Pods_MVCProjectUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1F252116A7D74BD848EDB16 /* Pods_MVCProjectUITests.framework */; };
 		CEFFD6E020F3504100D1211A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CEFFD6DF20F3504100D1211A /* AppDelegate.m */; };
 		CEFFD6E320F3504100D1211A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEFFD6E220F3504100D1211A /* ViewController.m */; };
 		CEFFD6E620F3504100D1211A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEFFD6E420F3504100D1211A /* Main.storyboard */; };
@@ -15,6 +18,32 @@
 		CEFFD6EE20F3504100D1211A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CEFFD6ED20F3504100D1211A /* main.m */; };
 		CEFFD6F820F3504100D1211A /* MVCProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CEFFD6F720F3504100D1211A /* MVCProjectTests.m */; };
 		CEFFD70320F3504100D1211A /* MVCProjectUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CEFFD70220F3504100D1211A /* MVCProjectUITests.m */; };
+		CEFFD71320F4405900D1211A /* BaseTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEFFD71220F4405900D1211A /* BaseTabBarController.m */; };
+		CEFFD71720F47EBA00D1211A /* BaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEFFD71520F47EBA00D1211A /* BaseNavigationController.m */; };
+		CEFFD71C20F4912100D1211A /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEFFD71B20F4912100D1211A /* BaseViewController.m */; };
+		CEFFD71F20F4913C00D1211A /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEFFD71E20F4913C00D1211A /* FirstViewController.m */; };
+		CEFFD72220F4914A00D1211A /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEFFD72120F4914A00D1211A /* SecondViewController.m */; };
+		CEFFD72520F4915600D1211A /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEFFD72420F4915600D1211A /* ThirdViewController.m */; };
+		CEFFD72820F4916D00D1211A /* FourthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEFFD72720F4916D00D1211A /* FourthViewController.m */; };
+		CEFFD72C20F5AAEB00D1211A /* MyConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = CEFFD72B20F5AAEB00D1211A /* MyConfig.m */; };
+		CEFFD73120F5B5FE00D1211A /* BaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CEFFD72D20F5B5FE00D1211A /* BaseModel.m */; };
+		CEFFD73220F5B5FE00D1211A /* BaseOperator.m in Sources */ = {isa = PBXBuildFile; fileRef = CEFFD72F20F5B5FE00D1211A /* BaseOperator.m */; };
+		CEFFD76920F5DEAA00D1211A /* NSString+SafyCheck.m in Sources */ = {isa = PBXBuildFile; fileRef = CEFFD73520F5DEA900D1211A /* NSString+SafyCheck.m */; };
+		CEFFD76A20F5DEAA00D1211A /* NormalPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = CEFFD73620F5DEA900D1211A /* NormalPickerView.m */; };
+		CEFFD76D20F5DEAA00D1211A /* BaiduMapLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = CEFFD73B20F5DEA900D1211A /* BaiduMapLocation.m */; };
+		CEFFD76F20F5DEAA00D1211A /* NSStringTool.m in Sources */ = {isa = PBXBuildFile; fileRef = CEFFD74420F5DEA900D1211A /* NSStringTool.m */; };
+		CEFFD77020F5DEAA00D1211A /* IsNet.m in Sources */ = {isa = PBXBuildFile; fileRef = CEFFD74520F5DEA900D1211A /* IsNet.m */; };
+		CEFFD77220F5DEAA00D1211A /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEFFD74B20F5DEA900D1211A /* WebViewController.m */; };
+		CEFFD77320F5DEAA00D1211A /* UIImage+ZZ.m in Sources */ = {isa = PBXBuildFile; fileRef = CEFFD74D20F5DEA900D1211A /* UIImage+ZZ.m */; };
+		CEFFD77420F5DEAA00D1211A /* 加载008.gif in Resources */ = {isa = PBXBuildFile; fileRef = CEFFD74E20F5DEA900D1211A /* 加载008.gif */; };
+		CEFFD77520F5DEAA00D1211A /* UIImage+Tint.m in Sources */ = {isa = PBXBuildFile; fileRef = CEFFD75020F5DEA900D1211A /* UIImage+Tint.m */; };
+		CEFFD77720F5DEAA00D1211A /* DatePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = CEFFD75420F5DEA900D1211A /* DatePickerView.m */; };
+		CEFFD77A20F5DEAA00D1211A /* ZQProjectTool.m in Sources */ = {isa = PBXBuildFile; fileRef = CEFFD75820F5DEA900D1211A /* ZQProjectTool.m */; };
+		CEFFD77B20F5DEAA00D1211A /* CheckUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = CEFFD75920F5DEA900D1211A /* CheckUtils.m */; };
+		CEFFD77C20F5DEAA00D1211A /* QuestionPickView.m in Sources */ = {isa = PBXBuildFile; fileRef = CEFFD75C20F5DEA900D1211A /* QuestionPickView.m */; };
+		CEFFD78120F5DEAA00D1211A /* UIImage+Color.m in Sources */ = {isa = PBXBuildFile; fileRef = CEFFD76320F5DEA900D1211A /* UIImage+Color.m */; };
+		CEFFD78420F5DEAA00D1211A /* DateModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CEFFD76820F5DEA900D1211A /* DateModel.m */; };
+		CEFFD78920F5E84100D1211A /* NetworkingManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CEFFD78820F5E84100D1211A /* NetworkingManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +64,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		09A7A62EC8C10A620433F070 /* Pods-MVCProjectUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVCProjectUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MVCProjectUITests/Pods-MVCProjectUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		26C55A391FA79750F60E469A /* Pods-MVCProjectTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVCProjectTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MVCProjectTests/Pods-MVCProjectTests.release.xcconfig"; sourceTree = "<group>"; };
+		445B10C63D14D71B3FB316A1 /* Pods-MVCProjectUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVCProjectUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MVCProjectUITests/Pods-MVCProjectUITests.release.xcconfig"; sourceTree = "<group>"; };
+		8BDF70B8099A2001E64A80CF /* Pods-MVCProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVCProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-MVCProject/Pods-MVCProject.release.xcconfig"; sourceTree = "<group>"; };
+		96B3D96A9ACEA7CAB544CDDC /* Pods_MVCProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MVCProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1F252116A7D74BD848EDB16 /* Pods_MVCProjectUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MVCProjectUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEFFD6DB20F3504100D1211A /* MVCProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MVCProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEFFD6DE20F3504100D1211A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CEFFD6DF20F3504100D1211A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +86,61 @@
 		CEFFD6FE20F3504100D1211A /* MVCProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MVCProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEFFD70220F3504100D1211A /* MVCProjectUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MVCProjectUITests.m; sourceTree = "<group>"; };
 		CEFFD70420F3504100D1211A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEFFD71120F4405900D1211A /* BaseTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseTabBarController.h; sourceTree = "<group>"; };
+		CEFFD71220F4405900D1211A /* BaseTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseTabBarController.m; sourceTree = "<group>"; };
+		CEFFD71420F47EBA00D1211A /* BaseNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseNavigationController.h; sourceTree = "<group>"; };
+		CEFFD71520F47EBA00D1211A /* BaseNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseNavigationController.m; sourceTree = "<group>"; };
+		CEFFD71A20F4912100D1211A /* BaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		CEFFD71B20F4912100D1211A /* BaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		CEFFD71D20F4913C00D1211A /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		CEFFD71E20F4913C00D1211A /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		CEFFD72020F4914A00D1211A /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		CEFFD72120F4914A00D1211A /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		CEFFD72320F4915600D1211A /* ThirdViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		CEFFD72420F4915600D1211A /* ThirdViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
+		CEFFD72620F4916D00D1211A /* FourthViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FourthViewController.h; sourceTree = "<group>"; };
+		CEFFD72720F4916D00D1211A /* FourthViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FourthViewController.m; sourceTree = "<group>"; };
+		CEFFD72A20F5AAEB00D1211A /* MyConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyConfig.h; sourceTree = "<group>"; };
+		CEFFD72B20F5AAEB00D1211A /* MyConfig.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyConfig.m; sourceTree = "<group>"; };
+		CEFFD72D20F5B5FE00D1211A /* BaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseModel.m; sourceTree = "<group>"; };
+		CEFFD72E20F5B5FE00D1211A /* BaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseModel.h; sourceTree = "<group>"; };
+		CEFFD72F20F5B5FE00D1211A /* BaseOperator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseOperator.m; sourceTree = "<group>"; };
+		CEFFD73020F5B5FE00D1211A /* BaseOperator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseOperator.h; sourceTree = "<group>"; };
+		CEFFD73520F5DEA900D1211A /* NSString+SafyCheck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+SafyCheck.m"; sourceTree = "<group>"; };
+		CEFFD73620F5DEA900D1211A /* NormalPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NormalPickerView.m; sourceTree = "<group>"; };
+		CEFFD73720F5DEA900D1211A /* UIImage+Tint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Tint.h"; sourceTree = "<group>"; };
+		CEFFD73B20F5DEA900D1211A /* BaiduMapLocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaiduMapLocation.m; sourceTree = "<group>"; };
+		CEFFD73C20F5DEA900D1211A /* ZQProjectTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZQProjectTool.h; sourceTree = "<group>"; };
+		CEFFD73D20F5DEA900D1211A /* CheckUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CheckUtils.h; sourceTree = "<group>"; };
+		CEFFD74020F5DEA900D1211A /* DatePickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DatePickerView.h; sourceTree = "<group>"; };
+		CEFFD74120F5DEA900D1211A /* UIImage+Color.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Color.h"; sourceTree = "<group>"; };
+		CEFFD74420F5DEA900D1211A /* NSStringTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSStringTool.m; sourceTree = "<group>"; };
+		CEFFD74520F5DEA900D1211A /* IsNet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IsNet.m; sourceTree = "<group>"; };
+		CEFFD74920F5DEA900D1211A /* QuestionPickView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuestionPickView.h; sourceTree = "<group>"; };
+		CEFFD74A20F5DEA900D1211A /* DateModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DateModel.h; sourceTree = "<group>"; };
+		CEFFD74B20F5DEA900D1211A /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
+		CEFFD74D20F5DEA900D1211A /* UIImage+ZZ.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ZZ.m"; sourceTree = "<group>"; };
+		CEFFD74E20F5DEA900D1211A /* 加载008.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "加载008.gif"; sourceTree = "<group>"; };
+		CEFFD75020F5DEA900D1211A /* UIImage+Tint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Tint.m"; sourceTree = "<group>"; };
+		CEFFD75220F5DEA900D1211A /* NormalPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NormalPickerView.h; sourceTree = "<group>"; };
+		CEFFD75320F5DEA900D1211A /* NSString+SafyCheck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+SafyCheck.h"; sourceTree = "<group>"; };
+		CEFFD75420F5DEA900D1211A /* DatePickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DatePickerView.m; sourceTree = "<group>"; };
+		CEFFD75820F5DEA900D1211A /* ZQProjectTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZQProjectTool.m; sourceTree = "<group>"; };
+		CEFFD75920F5DEA900D1211A /* CheckUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CheckUtils.m; sourceTree = "<group>"; };
+		CEFFD75A20F5DEA900D1211A /* BaiduMapLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaiduMapLocation.h; sourceTree = "<group>"; };
+		CEFFD75C20F5DEA900D1211A /* QuestionPickView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuestionPickView.m; sourceTree = "<group>"; };
+		CEFFD75F20F5DEA900D1211A /* IsNet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IsNet.h; sourceTree = "<group>"; };
+		CEFFD76120F5DEA900D1211A /* NSStringTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSStringTool.h; sourceTree = "<group>"; };
+		CEFFD76320F5DEA900D1211A /* UIImage+Color.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Color.m"; sourceTree = "<group>"; };
+		CEFFD76420F5DEA900D1211A /* UIImage+ZZ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ZZ.h"; sourceTree = "<group>"; };
+		CEFFD76720F5DEA900D1211A /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
+		CEFFD76820F5DEA900D1211A /* DateModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DateModel.m; sourceTree = "<group>"; };
+		CEFFD78520F5E03B00D1211A /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		CEFFD78720F5E84100D1211A /* NetworkingManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkingManager.h; sourceTree = "<group>"; };
+		CEFFD78820F5E84100D1211A /* NetworkingManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkingManager.m; sourceTree = "<group>"; };
+		DF0DEFC6D3FF7C3C390A8F91 /* Pods-MVCProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVCProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MVCProject/Pods-MVCProject.debug.xcconfig"; sourceTree = "<group>"; };
+		FD37F49637039B6412B37077 /* Pods-MVCProjectTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVCProjectTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MVCProjectTests/Pods-MVCProjectTests.debug.xcconfig"; sourceTree = "<group>"; };
+		FF7714A6EBBEAB8B008B33F7 /* Pods_MVCProjectTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MVCProjectTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +148,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A36484FD4B8FA690FC3DC5DD /* Pods_MVCProject.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +156,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2661E6720301AE0E6E4DE51E /* Pods_MVCProjectTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +164,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C3D27E2D9D47E179577523C7 /* Pods_MVCProjectUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6235B10679FF3A8DDE80C21F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DF0DEFC6D3FF7C3C390A8F91 /* Pods-MVCProject.debug.xcconfig */,
+				8BDF70B8099A2001E64A80CF /* Pods-MVCProject.release.xcconfig */,
+				FD37F49637039B6412B37077 /* Pods-MVCProjectTests.debug.xcconfig */,
+				26C55A391FA79750F60E469A /* Pods-MVCProjectTests.release.xcconfig */,
+				09A7A62EC8C10A620433F070 /* Pods-MVCProjectUITests.debug.xcconfig */,
+				445B10C63D14D71B3FB316A1 /* Pods-MVCProjectUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C9FFC67235C6211446244C64 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				96B3D96A9ACEA7CAB544CDDC /* Pods_MVCProject.framework */,
+				FF7714A6EBBEAB8B008B33F7 /* Pods_MVCProjectTests.framework */,
+				B1F252116A7D74BD848EDB16 /* Pods_MVCProjectUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		CEFFD6D220F3504100D1211A = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +201,8 @@
 				CEFFD6F620F3504100D1211A /* MVCProjectTests */,
 				CEFFD70120F3504100D1211A /* MVCProjectUITests */,
 				CEFFD6DC20F3504100D1211A /* Products */,
+				6235B10679FF3A8DDE80C21F /* Pods */,
+				C9FFC67235C6211446244C64 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -110,6 +228,11 @@
 				CEFFD6E920F3504100D1211A /* LaunchScreen.storyboard */,
 				CEFFD6EC20F3504100D1211A /* Info.plist */,
 				CEFFD6ED20F3504100D1211A /* main.m */,
+				CEFFD78520F5E03B00D1211A /* PrefixHeader.pch */,
+				CEFFD73420F5DEA900D1211A /* Tool */,
+				CEFFD72920F5AAAE00D1211A /* Service */,
+				CEFFD71920F490E500D1211A /* Controllers */,
+				CEFFD71020F4402300D1211A /* Base */,
 			);
 			path = MVCProject;
 			sourceTree = "<group>";
@@ -132,6 +255,117 @@
 			path = MVCProjectUITests;
 			sourceTree = "<group>";
 		};
+		CEFFD71020F4402300D1211A /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				CEFFD72E20F5B5FE00D1211A /* BaseModel.h */,
+				CEFFD72D20F5B5FE00D1211A /* BaseModel.m */,
+				CEFFD73020F5B5FE00D1211A /* BaseOperator.h */,
+				CEFFD72F20F5B5FE00D1211A /* BaseOperator.m */,
+				CEFFD71120F4405900D1211A /* BaseTabBarController.h */,
+				CEFFD71220F4405900D1211A /* BaseTabBarController.m */,
+				CEFFD71420F47EBA00D1211A /* BaseNavigationController.h */,
+				CEFFD71520F47EBA00D1211A /* BaseNavigationController.m */,
+				CEFFD71A20F4912100D1211A /* BaseViewController.h */,
+				CEFFD71B20F4912100D1211A /* BaseViewController.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		CEFFD71920F490E500D1211A /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				CEFFD78B20F5F14900D1211A /* First */,
+				CEFFD78E20F5F17500D1211A /* Fourth */,
+				CEFFD78C20F5F15C00D1211A /* Second */,
+				CEFFD78D20F5F16600D1211A /* Third */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		CEFFD72920F5AAAE00D1211A /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				CEFFD78720F5E84100D1211A /* NetworkingManager.h */,
+				CEFFD78820F5E84100D1211A /* NetworkingManager.m */,
+				CEFFD72A20F5AAEB00D1211A /* MyConfig.h */,
+				CEFFD72B20F5AAEB00D1211A /* MyConfig.m */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		CEFFD73420F5DEA900D1211A /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				CEFFD74E20F5DEA900D1211A /* 加载008.gif */,
+				CEFFD75A20F5DEA900D1211A /* BaiduMapLocation.h */,
+				CEFFD73B20F5DEA900D1211A /* BaiduMapLocation.m */,
+				CEFFD73D20F5DEA900D1211A /* CheckUtils.h */,
+				CEFFD75920F5DEA900D1211A /* CheckUtils.m */,
+				CEFFD74A20F5DEA900D1211A /* DateModel.h */,
+				CEFFD76820F5DEA900D1211A /* DateModel.m */,
+				CEFFD74020F5DEA900D1211A /* DatePickerView.h */,
+				CEFFD75420F5DEA900D1211A /* DatePickerView.m */,
+				CEFFD75F20F5DEA900D1211A /* IsNet.h */,
+				CEFFD74520F5DEA900D1211A /* IsNet.m */,
+				CEFFD75220F5DEA900D1211A /* NormalPickerView.h */,
+				CEFFD73620F5DEA900D1211A /* NormalPickerView.m */,
+				CEFFD75320F5DEA900D1211A /* NSString+SafyCheck.h */,
+				CEFFD73520F5DEA900D1211A /* NSString+SafyCheck.m */,
+				CEFFD76120F5DEA900D1211A /* NSStringTool.h */,
+				CEFFD74420F5DEA900D1211A /* NSStringTool.m */,
+				CEFFD74920F5DEA900D1211A /* QuestionPickView.h */,
+				CEFFD75C20F5DEA900D1211A /* QuestionPickView.m */,
+				CEFFD74120F5DEA900D1211A /* UIImage+Color.h */,
+				CEFFD76320F5DEA900D1211A /* UIImage+Color.m */,
+				CEFFD73720F5DEA900D1211A /* UIImage+Tint.h */,
+				CEFFD75020F5DEA900D1211A /* UIImage+Tint.m */,
+				CEFFD76420F5DEA900D1211A /* UIImage+ZZ.h */,
+				CEFFD74D20F5DEA900D1211A /* UIImage+ZZ.m */,
+				CEFFD76720F5DEA900D1211A /* WebViewController.h */,
+				CEFFD74B20F5DEA900D1211A /* WebViewController.m */,
+				CEFFD73C20F5DEA900D1211A /* ZQProjectTool.h */,
+				CEFFD75820F5DEA900D1211A /* ZQProjectTool.m */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		CEFFD78B20F5F14900D1211A /* First */ = {
+			isa = PBXGroup;
+			children = (
+				CEFFD71D20F4913C00D1211A /* FirstViewController.h */,
+				CEFFD71E20F4913C00D1211A /* FirstViewController.m */,
+			);
+			path = First;
+			sourceTree = "<group>";
+		};
+		CEFFD78C20F5F15C00D1211A /* Second */ = {
+			isa = PBXGroup;
+			children = (
+				CEFFD72020F4914A00D1211A /* SecondViewController.h */,
+				CEFFD72120F4914A00D1211A /* SecondViewController.m */,
+			);
+			path = Second;
+			sourceTree = "<group>";
+		};
+		CEFFD78D20F5F16600D1211A /* Third */ = {
+			isa = PBXGroup;
+			children = (
+				CEFFD72320F4915600D1211A /* ThirdViewController.h */,
+				CEFFD72420F4915600D1211A /* ThirdViewController.m */,
+			);
+			path = Third;
+			sourceTree = "<group>";
+		};
+		CEFFD78E20F5F17500D1211A /* Fourth */ = {
+			isa = PBXGroup;
+			children = (
+				CEFFD72620F4916D00D1211A /* FourthViewController.h */,
+				CEFFD72720F4916D00D1211A /* FourthViewController.m */,
+			);
+			path = Fourth;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,9 +373,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CEFFD70720F3504100D1211A /* Build configuration list for PBXNativeTarget "MVCProject" */;
 			buildPhases = (
+				042D0E95ABD673385D1F67B6 /* [CP] Check Pods Manifest.lock */,
 				CEFFD6D720F3504100D1211A /* Sources */,
 				CEFFD6D820F3504100D1211A /* Frameworks */,
 				CEFFD6D920F3504100D1211A /* Resources */,
+				DEAEE7F501E2F439FB8A2F8E /* [CP] Embed Pods Frameworks */,
+				4BA06B02F65C2BF5EF7B6EF7 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -156,9 +393,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CEFFD70A20F3504100D1211A /* Build configuration list for PBXNativeTarget "MVCProjectTests" */;
 			buildPhases = (
+				7AB6B5A881C37F1237D69AF4 /* [CP] Check Pods Manifest.lock */,
 				CEFFD6EF20F3504100D1211A /* Sources */,
 				CEFFD6F020F3504100D1211A /* Frameworks */,
 				CEFFD6F120F3504100D1211A /* Resources */,
+				044E27E27FB2870E397FD055 /* [CP] Embed Pods Frameworks */,
+				9F8E7D27E9B1E6B7EC8357B7 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -174,9 +414,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CEFFD70D20F3504100D1211A /* Build configuration list for PBXNativeTarget "MVCProjectUITests" */;
 			buildPhases = (
+				9C6851E7C5E945BBE09BC505 /* [CP] Check Pods Manifest.lock */,
 				CEFFD6FA20F3504100D1211A /* Sources */,
 				CEFFD6FB20F3504100D1211A /* Frameworks */,
 				CEFFD6FC20F3504100D1211A /* Resources */,
+				BD4DD69A290B3B5FA97AAB8C /* [CP] Embed Pods Frameworks */,
+				6689520A80CA7ECD25CA51FE /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -241,6 +484,7 @@
 				CEFFD6EB20F3504100D1211A /* LaunchScreen.storyboard in Resources */,
 				CEFFD6E820F3504100D1211A /* Assets.xcassets in Resources */,
 				CEFFD6E620F3504100D1211A /* Main.storyboard in Resources */,
+				CEFFD77420F5DEAA00D1211A /* 加载008.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,14 +504,193 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		042D0E95ABD673385D1F67B6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MVCProject-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		044E27E27FB2870E397FD055 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MVCProjectTests/Pods-MVCProjectTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4BA06B02F65C2BF5EF7B6EF7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MVCProject/Pods-MVCProject-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6689520A80CA7ECD25CA51FE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MVCProjectUITests/Pods-MVCProjectUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7AB6B5A881C37F1237D69AF4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MVCProjectTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9C6851E7C5E945BBE09BC505 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MVCProjectUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9F8E7D27E9B1E6B7EC8357B7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MVCProjectTests/Pods-MVCProjectTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BD4DD69A290B3B5FA97AAB8C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MVCProjectUITests/Pods-MVCProjectUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DEAEE7F501E2F439FB8A2F8E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MVCProject/Pods-MVCProject-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/MJExtension/MJExtension.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJExtension.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MVCProject/Pods-MVCProject-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		CEFFD6D720F3504100D1211A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEFFD78120F5DEAA00D1211A /* UIImage+Color.m in Sources */,
+				CEFFD78920F5E84100D1211A /* NetworkingManager.m in Sources */,
+				CEFFD72820F4916D00D1211A /* FourthViewController.m in Sources */,
+				CEFFD76D20F5DEAA00D1211A /* BaiduMapLocation.m in Sources */,
+				CEFFD77320F5DEAA00D1211A /* UIImage+ZZ.m in Sources */,
+				CEFFD76920F5DEAA00D1211A /* NSString+SafyCheck.m in Sources */,
+				CEFFD77A20F5DEAA00D1211A /* ZQProjectTool.m in Sources */,
 				CEFFD6E320F3504100D1211A /* ViewController.m in Sources */,
+				CEFFD71C20F4912100D1211A /* BaseViewController.m in Sources */,
+				CEFFD76F20F5DEAA00D1211A /* NSStringTool.m in Sources */,
+				CEFFD71F20F4913C00D1211A /* FirstViewController.m in Sources */,
 				CEFFD6EE20F3504100D1211A /* main.m in Sources */,
+				CEFFD72C20F5AAEB00D1211A /* MyConfig.m in Sources */,
+				CEFFD77520F5DEAA00D1211A /* UIImage+Tint.m in Sources */,
+				CEFFD73120F5B5FE00D1211A /* BaseModel.m in Sources */,
+				CEFFD77C20F5DEAA00D1211A /* QuestionPickView.m in Sources */,
+				CEFFD72220F4914A00D1211A /* SecondViewController.m in Sources */,
+				CEFFD77220F5DEAA00D1211A /* WebViewController.m in Sources */,
+				CEFFD72520F4915600D1211A /* ThirdViewController.m in Sources */,
+				CEFFD77720F5DEAA00D1211A /* DatePickerView.m in Sources */,
+				CEFFD78420F5DEAA00D1211A /* DateModel.m in Sources */,
+				CEFFD76A20F5DEAA00D1211A /* NormalPickerView.m in Sources */,
+				CEFFD77B20F5DEAA00D1211A /* CheckUtils.m in Sources */,
 				CEFFD6E020F3504100D1211A /* AppDelegate.m in Sources */,
+				CEFFD71320F4405900D1211A /* BaseTabBarController.m in Sources */,
+				CEFFD73220F5B5FE00D1211A /* BaseOperator.m in Sources */,
+				CEFFD77020F5DEAA00D1211A /* IsNet.m in Sources */,
+				CEFFD71720F47EBA00D1211A /* BaseNavigationController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,10 +851,13 @@
 		};
 		CEFFD70820F3504100D1211A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF0DEFC6D3FF7C3C390A8F91 /* Pods-MVCProject.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = FJ2L39L2WG;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/MVCProject/PrefixHeader.pch";
 				INFOPLIST_FILE = MVCProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = qiuYangHanabi.MVCProject;
@@ -442,10 +868,13 @@
 		};
 		CEFFD70920F3504100D1211A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8BDF70B8099A2001E64A80CF /* Pods-MVCProject.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = FJ2L39L2WG;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/MVCProject/PrefixHeader.pch";
 				INFOPLIST_FILE = MVCProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = qiuYangHanabi.MVCProject;
@@ -456,6 +885,7 @@
 		};
 		CEFFD70B20F3504100D1211A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD37F49637039B6412B37077 /* Pods-MVCProjectTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -471,6 +901,7 @@
 		};
 		CEFFD70C20F3504100D1211A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 26C55A391FA79750F60E469A /* Pods-MVCProjectTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -486,6 +917,7 @@
 		};
 		CEFFD70E20F3504100D1211A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 09A7A62EC8C10A620433F070 /* Pods-MVCProjectUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = FJ2L39L2WG;
@@ -500,6 +932,7 @@
 		};
 		CEFFD70F20F3504100D1211A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 445B10C63D14D71B3FB316A1 /* Pods-MVCProjectUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = FJ2L39L2WG;
