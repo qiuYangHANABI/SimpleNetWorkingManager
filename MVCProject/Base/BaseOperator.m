@@ -11,7 +11,7 @@
 
 @implementation BaseOperator
 
--(id)initWithParams:(NSDictionary *)params{
+-(instancetype)initWithParams:(NSDictionary *)params{
     if (self = [super init]) {
         _config = [MyConfig sharedMyConfig];
         for (__strong NSString *param in params) {

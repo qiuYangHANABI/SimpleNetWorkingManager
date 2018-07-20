@@ -7,7 +7,7 @@
 //
 
 #import "FirstViewController.h"
-#import "MyConfig.h"
+#import "FirstOperator.h"
 
 @interface FirstViewController ()
 
@@ -18,13 +18,14 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
     NSMutableDictionary *params = [NSMutableDictionary dictionary];
-    params[@"key"] = @"value";
-    BaseOperator *operator = [[BaseOperator alloc]initWithParams:params];
+    params[@"company_id"] = @"value";
+    params[@"product_type"] = @"";
+    FirstOperator *operator = [[FirstOperator alloc]initWithParams:params];
     [self.networkingManager asyncTaskOnVC:self operator:operator successBlock:^(BaseModel *baseModel) {
-        
     } failBlock:^(BaseModel *baseModel) {
-        
+        [self showToastMessage:@"fail"];
     }];
 }
 

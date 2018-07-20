@@ -62,5 +62,5 @@
 
 -(void)parseXML:(BaseModel*) baseModel;
 
--(id)initWithParams:(NSDictionary *)params;
+-(instancetype)initWithParams:(NSDictionary *)params;
 @end

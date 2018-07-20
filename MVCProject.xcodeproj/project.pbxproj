@@ -44,6 +44,8 @@
 		CEFFD78120F5DEAA00D1211A /* UIImage+Color.m in Sources */ = {isa = PBXBuildFile; fileRef = CEFFD76320F5DEA900D1211A /* UIImage+Color.m */; };
 		CEFFD78420F5DEAA00D1211A /* DateModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CEFFD76820F5DEA900D1211A /* DateModel.m */; };
 		CEFFD78920F5E84100D1211A /* NetworkingManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CEFFD78820F5E84100D1211A /* NetworkingManager.m */; };
+		CEFFD79520F5F49900D1211A /* FirstOperator.m in Sources */ = {isa = PBXBuildFile; fileRef = CEFFD79420F5F49900D1211A /* FirstOperator.m */; };
+		CEFFD79820F5F6ED00D1211A /* FirstModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CEFFD79720F5F6ED00D1211A /* FirstModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -138,6 +140,10 @@
 		CEFFD78520F5E03B00D1211A /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		CEFFD78720F5E84100D1211A /* NetworkingManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkingManager.h; sourceTree = "<group>"; };
 		CEFFD78820F5E84100D1211A /* NetworkingManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkingManager.m; sourceTree = "<group>"; };
+		CEFFD79320F5F49900D1211A /* FirstOperator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstOperator.h; sourceTree = "<group>"; };
+		CEFFD79420F5F49900D1211A /* FirstOperator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstOperator.m; sourceTree = "<group>"; };
+		CEFFD79620F5F6ED00D1211A /* FirstModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstModel.h; sourceTree = "<group>"; };
+		CEFFD79720F5F6ED00D1211A /* FirstModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstModel.m; sourceTree = "<group>"; };
 		DF0DEFC6D3FF7C3C390A8F91 /* Pods-MVCProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVCProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MVCProject/Pods-MVCProject.debug.xcconfig"; sourceTree = "<group>"; };
 		FD37F49637039B6412B37077 /* Pods-MVCProjectTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVCProjectTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MVCProjectTests/Pods-MVCProjectTests.debug.xcconfig"; sourceTree = "<group>"; };
 		FF7714A6EBBEAB8B008B33F7 /* Pods_MVCProjectTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MVCProjectTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -333,8 +339,10 @@
 		CEFFD78B20F5F14900D1211A /* First */ = {
 			isa = PBXGroup;
 			children = (
-				CEFFD71D20F4913C00D1211A /* FirstViewController.h */,
-				CEFFD71E20F4913C00D1211A /* FirstViewController.m */,
+				CEFFD79220F5F46900D1211A /* View */,
+				CEFFD79120F5F45E00D1211A /* Model */,
+				CEFFD79020F5F43D00D1211A /* Operator */,
+				CEFFD78F20F5F43300D1211A /* ViewController */,
 			);
 			path = First;
 			sourceTree = "<group>";
@@ -364,6 +372,40 @@
 				CEFFD72720F4916D00D1211A /* FourthViewController.m */,
 			);
 			path = Fourth;
+			sourceTree = "<group>";
+		};
+		CEFFD78F20F5F43300D1211A /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				CEFFD71D20F4913C00D1211A /* FirstViewController.h */,
+				CEFFD71E20F4913C00D1211A /* FirstViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		CEFFD79020F5F43D00D1211A /* Operator */ = {
+			isa = PBXGroup;
+			children = (
+				CEFFD79320F5F49900D1211A /* FirstOperator.h */,
+				CEFFD79420F5F49900D1211A /* FirstOperator.m */,
+			);
+			path = Operator;
+			sourceTree = "<group>";
+		};
+		CEFFD79120F5F45E00D1211A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CEFFD79620F5F6ED00D1211A /* FirstModel.h */,
+				CEFFD79720F5F6ED00D1211A /* FirstModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CEFFD79220F5F46900D1211A /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -666,8 +708,10 @@
 				CEFFD78120F5DEAA00D1211A /* UIImage+Color.m in Sources */,
 				CEFFD78920F5E84100D1211A /* NetworkingManager.m in Sources */,
 				CEFFD72820F4916D00D1211A /* FourthViewController.m in Sources */,
+				CEFFD79520F5F49900D1211A /* FirstOperator.m in Sources */,
 				CEFFD76D20F5DEAA00D1211A /* BaiduMapLocation.m in Sources */,
 				CEFFD77320F5DEAA00D1211A /* UIImage+ZZ.m in Sources */,
+				CEFFD79820F5F6ED00D1211A /* FirstModel.m in Sources */,
 				CEFFD76920F5DEAA00D1211A /* NSString+SafyCheck.m in Sources */,
 				CEFFD77A20F5DEAA00D1211A /* ZQProjectTool.m in Sources */,
 				CEFFD6E320F3504100D1211A /* ViewController.m in Sources */,
