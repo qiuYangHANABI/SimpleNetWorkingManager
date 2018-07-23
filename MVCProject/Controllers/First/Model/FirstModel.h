@@ -10,4 +10,8 @@
 
 @interface FirstModel : BaseModel
 
+@property (nonatomic, copy) NSString *string;
+@property (nonatomic, copy) NSString *string2;
+@property (nonatomic, strong) NSArray *dataList;
+
 @end

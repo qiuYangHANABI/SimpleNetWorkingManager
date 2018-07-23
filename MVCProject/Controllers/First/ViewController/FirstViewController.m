@@ -18,12 +18,17 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    
+//    example:
+//params:请求参数
     NSMutableDictionary *params = [NSMutableDictionary dictionary];
     params[@"company_id"] = @"value";
     params[@"product_type"] = @"";
+//operator:请求地址、请求方式、json->dic->model
     FirstOperator *operator = [[FirstOperator alloc]initWithParams:params];
     [self.networkingManager asyncTaskOnVC:self operator:operator successBlock:^(BaseModel *baseModel) {
+        if ([baseModel.ret isEqualToString:@"1"]) {
+            NSLog(@"%@, %@, %@", operator.data.string, operator.data.string2, operator.data.dataList);
+        }
     } failBlock:^(BaseModel *baseModel) {
         [self showToastMessage:@"fail"];
     }];

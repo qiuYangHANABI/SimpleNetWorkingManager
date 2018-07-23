@@ -7,7 +7,15 @@
 //
 
 #import "FirstModel.h"
+#import "FirstDataListModel.h"
 
 @implementation FirstModel
+
+-(id)mj_newValueFromOldValue:(id)oldValue property:(MJProperty *)property{
+    if([property.name isEqualToString:@"dataList"]){
+        return [FirstDataListModel mj_objectArrayWithKeyValuesArray:oldValue];
+    }
+    return oldValue;
+}
 
 @end
